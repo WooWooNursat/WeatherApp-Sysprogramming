@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <title>GroupTask</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="txt/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+</head>
+
+<style type="text/css">
+    td{
+        padding: 8px 8px;
+        border: 1px solid black;
+    }
+    #day{
+        background-color: lightskyblue;
+    }
+    #night{
+        background-color: midnightblue;
+        color: white;
+    }
+    button{
+        margin: 30px 20px;
+        background-color: gold;
+        width: 200px;
+        height: 50px;
+    }
+    #result{
+        font-size: large;
+        margin: 5px 20px;
+        border: 1px solid black;
+        background-color: lightyellow;
+        width: 685px;
+        height: 50px;
+        text-align: center;
+        padding-top: 20px;
+    }
+</style>
+
+<body>
+    <h1>Weather App</h1>
+
+    <p>Информация о прогнозе погоды в Алматы на июнь 2021 года.</p>
+
+    {% if data %}
+        <div id="content">
+            <table style="margin: 20px">
+                {% for i in data %}
+                <tr>
+                    <td>
+                        <div>June, {{i.day}}</div>
+                    </td>
+                    <td>
+                        <img src="static/{{ i.image }}"  alt="{{ i.image }}"/>
+                    </td>
+                    <td id="day">
+                        <span>Day: +{{ i.dayTemp }}°</span>
+                    </td>
+                    <td id="night">
+                        <p>Night: +{{ i.nightTemp }}°</p>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <form method="post" action="/">
+        <button type="submit" name="submit_button" value="Show max" >HIGH</button>
+        <button type="submit" name="submit_button" value="Show min" >MIN</button>
+        <button type="submit" name="submit_button" value="Show avg" >AVG</button>
+        </form>
+
+        <p id="result">{{ result }}</p>
+
+    {% endif %}
+
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+[
+  {
+    "day": "1",
+    "dayTemp": 26,
+    "nightTemp": 21,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "2",
+    "dayTemp": 26,
+    "nightTemp": 21,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "3",
+    "dayTemp": 25,
+    "nightTemp": 21,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "4",
+    "dayTemp": 27,
+    "nightTemp": 20,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "5",
+    "dayTemp": 25,
+    "nightTemp": 21,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "6",
+    "dayTemp": 24,
+    "nightTemp": 19,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "7",
+    "dayTemp": 26,
+    "nightTemp": 20,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "8",
+    "dayTemp": 25,
+    "nightTemp": 20,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "9",
+    "dayTemp": 25,
+    "nightTemp": 21,
+    "image": "cloudy.jpg"
+  },
+  {
+    "day": "10",
+    "dayTemp": 27,
+    "nightTemp": 21,
+    "image": "cloudy.jpg"
+  },
+  {
+    "day": "11",
+    "dayTemp": 25,
+    "nightTemp": 21,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "12",
+    "dayTemp": 26,
+    "nightTemp": 20,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "13",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "14",
+    "dayTemp": 28,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "15",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "cloudy.jpg"
+  },
+  {
+    "day": "16",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "17",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "18",
+    "dayTemp": 29,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "19",
+    "dayTemp": 29,
+    "nightTemp": 23,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "20",
+    "dayTemp": 29,
+    "nightTemp": 24,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "21",
+    "dayTemp": 30,
+    "nightTemp": 23,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "22",
+    "dayTemp": 30,
+    "nightTemp": 25,
+    "image": "cloudy.jpg"
+  },
+  {
+    "day": "23",
+    "dayTemp": 29,
+    "nightTemp": 23,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "24",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "cloudy.jpg"
+  },
+  {
+    "day": "25",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "26",
+    "dayTemp": 28,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "27",
+    "dayTemp": 28,
+    "nightTemp": 24,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "28",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "29",
+    "dayTemp": 27,
+    "nightTemp": 22,
+    "image": "sunny.jpg"
+  },
+  {
+    "day": "30",
+    "dayTemp": 28,
+    "nightTemp": 23,
+    "image": "sunny.jpg"
+  }
+]

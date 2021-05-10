@@ -1,0 +1,67 @@
+th tr{
+    color: blue;
+}
+tr:nth-of-type(2n){
+    border: 1px solid black;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+td{
+    padding: 8px 8px;
+    border: 1px solid black;
+}
+
+#content{
+    background-color: #cccccc;
+}
+.ww-month li {
+    width: 14.2857%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #ebeaea;
+    box-sizing: border-box;
+    display:block
+}
+.ww-month {
+    background: #f7f7f7;
+    position:relative
+}
+.ww-month-weekdays div {
+    margin-bottom: 1px;
+    padding: 12px 0 7px;
+    font-size:18px
+}
+
+.ww-month-weekdays.forecast-statistics {
+    position: relative;
+    z-index: 1;
+    border-right:1px solid #ebeaea
+}
+
+.ww-month li {
+    height: 136px;
+    line-height: 14px;
+    position:relative
+}
+.ww-month-weekdays div {
+    color:#616161
+}
+.ww-month-weekdays img {
+    display: block;
+    border: none;
+    width: 48px;
+    height: 48px;
+    margin:0 auto
+}
+.ww-month-weekdays span {
+    display: block;
+    font-size: 23px;
+    color: #000;
+    margin:6px 0 0
+}
+.ww-month-weekdays p {
+    font-size: 14px;
+    color: #000;
+    margin: 9px 0 0 8px;
+    padding:0
+}
